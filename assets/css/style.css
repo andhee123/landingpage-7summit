@@ -1,0 +1,29 @@
+body {
+    min-height: 10000px;
+}
+.bg-gunung {
+    background-image: url(../img/rinjani5-cut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+}
+
+.text-banner {
+    font-size: 50px;
+}
+.mt-100px{
+    margin-top: 80px;
+}
+
+.bg-image1 {
+    background-image: url(../img/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image2 {
+    background-image: url(../img/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
