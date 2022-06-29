@@ -24,3 +24,21 @@
     background-size: cover;
 }
 
+.bg-footer {
+    background-image: url(../img/img-footer-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.m-mt-100{
+    margin-top: 100px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.m-fs-6 {
+    font-size: 13px;
+}

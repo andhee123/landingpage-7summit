@@ -13,10 +13,7 @@
     <!-- Prduct CSS -->
     <link rel="stylesheet" href="./assets/css/product.css" />
     <!-- FontAwesome ------------------------------------------------------>
-    <script
-      src="https://kit.fontawesome.com/fabe38b928.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./assets/js/fontAwesome.js"></script>
     <!-- aos ------------------------------------------------------------->
     <link rel="stylesheet" href="./assets/css/aos.css" />
   </head>
@@ -83,11 +80,7 @@
             <p class="fw-bold">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit!
             </p>
-            <!-- <div class="row justify-content-center">
-              <div class="col-3 bg-light pt-3 pb-3 "><p>7 Gunung </p></div>
-              <div class="col-3 bg-light pt-3 pb-3 "><p>Jalur Pendakian</p></div>
-              <div class="col-3 bg-light pt-3 pb-3 "><a href="#" class="btn btn-warning">Artikel</a></div>
-            </div> -->
+            
 
             <div class="row justify-content-center">
               <div class="col-md-5">
@@ -180,7 +173,7 @@
     </section>
     <!-- End Main Section -------------------------------------------------------------->
 
-    <!-- Mountain Start --------------------------------------------------------------->
+    <!-- Card Mountain Start --------------------------------------------------------------->
     <section>
       <div
         class="container"
@@ -203,7 +196,7 @@
               />
               <div class="card-body">
                 <h6 class="fw-bold">Latimojong</h6>
-                <p class="card-text fw-lighter">
+                <p class="card-text fw-lighter text-justify">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -220,7 +213,7 @@
               />
               <div class="card-body">
                 <h6 class="fw-bold">Semeru</h6>
-                <p class="card-text fw-lighter">
+                <p class="card-text fw-lighter text-justify">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -237,7 +230,7 @@
               />
               <div class="card-body">
                 <h6 class="fw-bold">Rinjani</h6>
-                <p class="card-text fw-lighter">
+                <p class="card-text fw-lighter text-justify">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
@@ -247,9 +240,9 @@
         </div>
       </div>
     </section>
-    <!-- Mountain End -->
+    <!-- Card Mountain End -->
 
-    <!-- page  ----------------------------------------------------------------->
+    <!-- Copas dari boostrap example lalu dimodifikasi  ----------------------------------------------------------------->
     <div class="container-fluid mt-5">
       <div class="row justify-content-center">
         <div class="d-md-flex flex-md-equal w-75 shadow-lg p-0">
@@ -271,12 +264,13 @@
               <h4 class="fs-3 fw-bolder">
                 Moundaki Help You Find Hiking Destination
               </h4>
-              <p class="fs-6">
+              <p class="fs-6 lh-lg text-justify
+              
+              ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
                 laudantium ratione ipsum corporis eos, eius ea velit
                 perspiciatis placeat doloremque quis neque tempora eius ea velit
-                perspiciatis placeat doloremque quis neque tempora eius ea velit
-                perspiciatis placeat doloremque quis neque tempora
+                
               </p>
               <a href="#" class="btn btn-warning">Read More</a>
             </div>
@@ -294,12 +288,11 @@
               <h4 class="fs-3 fw-bolder">
                 Moundaki Help You Find Hiking Equipment
               </h4>
-              <p class="fs-6">
+              <p class="fs-6 lh-lg text-justify">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
                 laudantium ratione ipsum corporis eos, eius ea velit
                 perspiciatis placeat doloremque quis neque tempora eius ea velit
-                perspiciatis placeat doloremque quis neque tempora eius ea velit
-                perspiciatis placeat doloremque quis neque tempora
+                
               </p>
               <a href="#" class="btn btn-warning">Read More</a>
             </div>
@@ -315,8 +308,8 @@
         </div>
       </div>
     </div>
-    <!-- page  ----------------------------------------------------------------->
-
+    <!--  End ----------------------------------------------------------------->
+    <!-- User Review -------------------------------------------------------------->
     <div class="container mt-5">
       <div class="row">
         <div class="col-10" data-aos="fade-right" data-aos-duration="1000">
@@ -328,10 +321,10 @@
           data-aos-duration="1000"
         >
           <span class="fs-3 bg-secondary ps-3 pe-3"
-            ><i class="fa-solid fa-arrow-left"></i
+            ><i class="fa fa-arrow-left"></i
           ></span>
           <span class="fs-3 bg-warning ps-3 pe-3"
-            ><i class="fa-solid fa-arrow-right"></i
+            ><i class="fa fa-arrow-right"></i
           ></span>
         </div>
       </div>
@@ -340,7 +333,7 @@
     <div class="container">
       <div class="row justify-content-between">
         <div
-          class="col shadow-lg p-0"
+          class="col-md-6 shadow-lg p-0"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
@@ -354,9 +347,9 @@
               />
             </div>
             <div class="col">
-              <div class="fs-5 fw-bold">Arthur Holmes</div>
-              <div class="fs-6 fw-light">College Student</div>
-              <p>
+              <div class="fs-5 fw-bold pt-3">Arthur Holmes</div>
+              <div class="m-fs-6 fw-light">College Student</div>
+              <p class="text-justify mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                 voluptates, illum dolores
               </p>
@@ -364,7 +357,7 @@
           </div>
         </div>
         <div
-          class="col shadow-lg p-0"
+          class="col-md-6 shadow-lg p-0"
           data-aos="fade-left"
           data-aos-duration="1000"
         >
@@ -378,9 +371,9 @@
               />
             </div>
             <div class="col">
-              <div class="fs-5 fw-bold">Ada Winston</div>
-              <div class="fs-6 fw-light">Hiking Enjoyers</div>
-              <p>
+              <div class="fs-5 fw-bold pt-3 ">Ada Winston</div>
+              <div class="m-fs-6 fw-light">Hiking Enjoyers</div>
+              <p class="text-justify mt-3">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                 voluptates, illum dolores
               </p>
@@ -389,35 +382,59 @@
         </div>
       </div>
     </div>
-
+    <!-- End User Review -------------------------------------------------------------->
+    <!-- News ------------------------------------------------------------------------->
     <section>
       <div class="container mt-5">
-        <div class="row">
-          <div class="col-10"><p class="fs-2 fw-bold m-0">Recent News</p></div>
-          <div class="col-2 text-center bg-warning fs-3"><p class="m-0 fs-6 text-center p-2 fw-bold">See More</p></div>
-        </div> 
+        <div class="row"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="1500"
+        >
+          <div class="col-10" data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="1500"
+          ><p class="fs-2 fw-bold m-0">Recent News</p>
+          </div>
+          <div class="col-2 text-center bg-warning fs-3 "
+          data-aos="fade-left"
+          data-aos-duration="1000"
+          data-aos-delay="1500">
+            <p class="m-0 fs-6 text-center p-2 fw-bold">See More</p>
+          </div>
+        </div>
 
         <div class="row mt-4">
-          <div class="col-md-6 ">
-            <img src="./assets/img/news.jpg" alt="rinjani1" width="455px" />
+          <div class="col-md-6 position-relative" data-aos="fade-right"
+          data-aos-duration="1000"
+          data-aos-delay="1500">
+            <img src="./assets/img/news.jpg" alt="rinjani1" width="460px" />
+
+            <div
+              class="bg-white position-absolute top-100 start-0 translate-middle-y"
+            >
+              <p>Innformation</p>
+              <h3>Hiking Information</h3>
+              <h3>During Covid - 19</h3>
+            </div>
           </div>
           <div class="col-md-6 p-0 m-0">
-            <div class="row mb-3">
+            <div class="row mb-3" data-aos="fade-left"data-aos-duration="1000" data-aos-delay="1500">
               <div class="col-6">
-                <img src="./assets/img/news1.jpg" alt="" width="219px"/>
+                <img src="./assets/img/news1.jpg" alt="" width="219px" />
               </div>
               <div class="col-6">
                 <p class="fs-6 text-primary">Tips & Trick</p>
-                <p class="fs-5 fw-bold">How to manage hiking equipments</p>
+                <p class="lead">How to manage hiking equipments</p>
               </div>
             </div>
-            <div class="row">
+            <div class="row" data-aos="fade-left"data-aos-duration="1000" data-aos-delay="1500">
               <div class="col-6">
-                <img src="./assets/img/news2.jpg" alt="" width="219px"/>
+                <img src="./assets/img/news2.jpg" alt="" width="219px" />
               </div>
               <div class="col-6">
                 <p class="fs-6 text-primary">Information</p>
-                <p class="fs-5 fw-bold">
+                <p class="lead">
                   5 Mountain that were opened during the pandemi
                 </p>
               </div>
@@ -426,12 +443,101 @@
         </div>
       </div>
     </section>
-
+    <!-- End News ------------------------------------------------------------------------->
+    <!-- Subscribe -->
     <section>
-      <div class="container-fluid">
+      <div class="container bg-footer position-relative my-5" data-aos="fade-down"data-aos-duration="1000" data-aos-delay="1500">
+        <div
+          class="row position-absolute top-50 start-50 translate-middle shadow-lg px-5 py-4 text-center text-white"
+        >
+          <h2 class="fw-bold">SUBSCRIBE TO OUR</h2>
+          <h2 class="fw-bold">NEWSLETTER</h2>
+          <div class="text-white-50 mt-5">
+            Get daily updates in your email, keep updated
+          </div>
+          <div class="text-white-50">with all the latest news for Moundaki</div>
+        </div>
 
+        <div style="height: 450px"></div>
+        <!-- Agar gambar dapat ditampilkan -->
+        <div
+          class="row bg-white justify-content-between position-absolute top-100 start-50 translate-middle px-5 shadow-lg w-75"
+          
+        >
+          <div class="col py-4">Enter Your Name</div>
+          <div class="col py-4">Enter Your Email</div>
+          <div class="col py-4">
+            <a href="#" class="nav-link btn btn-warning fw-bold">SUBSCRIBE</a>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- End Subscribe -->
+
+    <section>
+      <div class="container m-mt-100" data-aos="fade-up"data-aos-duration="1000" data-aos-delay="1500">
+        <div class="row">
+          <div class="col-3">
+            <h5 class="fw-bold">MOUNDAKI</h5>
+            <p class="lead">
+              Start to getting bored with your activities? it's time to start
+              your adventures
+            </p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter px-4"></i>
+            <i class="fa fa-linkedin"></i>
+          </div>
+
+          <div class="col-3">
+            <div class="mb-4"><h6 class="fw-bold">Popular Mountain</h6></div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Mount Everest</a>
+            </div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Mount Denali</a>
+            </div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Mount Kilimanjaro</a>
+            </div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Mount Fuji</a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="mb-4"><h6 class="fw-bold">Navigation</h6></div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Home</a>
+            </div>
+            <div class="my-2">
+              <a href="#" class="nav-link">About</a>
+            </div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Blog</a>
+            </div>
+            <div class="my-2">
+              <a href="#" class="nav-link">Marketplace</a>
+            </div>
+          </div>
+          <div class="col-3"><div class="mb-4"><h6 class="fw-bold">Contact</h6></div>
+          <div class="my-2">
+            <a href="#" class="nav-link">(0921) 24121224</a>
+          </div>
+          <div class="my-2">
+            <a href="#" class="nav-link">Small Heath</a>
+          </div>
+          <div class="my-2">
+            <a href="#" class="nav-link">Birmingham</a>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <div class="mt-4 border-top container-fluid">
+      <footer>
+        <div class="text-center py-4">Copyright 2021 Moundaki</div>
+      </footer>
+    </div>
     <!-- Javascript Bootstrap -------------------------------------------------->
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
